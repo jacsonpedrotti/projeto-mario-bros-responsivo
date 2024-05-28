@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+    <title>Projeto Mario Bros</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="list-header">
+                <li>
+                    <img class="img-header" src="./assets/img/logo-header.png" alt="logo mario">
+                </li>
+                <li>
+                    <a href="#">Início</a>
+                </li>
+                <li>
+                    <a href="#">Nossos Serviços</a>
+                </li>
+                <li>
+                    <a href="#">Fale Conosco</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="mask-form"></div>
+        <div class="background-video">
+            <div class="mask-video"></div>
+            <video class="video-main" src="./assets/video/video.mp4" autoplay loop muted></video>
+        </div>
+        <article>
+            <section class="content-section-left">
+                <img class="img-logo-section" src="./assets/img/logo.png" alt="logo super mario bros">
+                <p>Encanadores Mario & Luigi - Resolvendo Seus Problemas Com Estilo!</p>
+                <p>Você já se encontrou em uma situação de emergência com encanamento?
+                    Vazamentos inesperados, canos entupidos ou torneiras que não param de pingar?
+                    Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos a vocês os
+                    encanadores mais famosos do Reino dos Cogumelos - Mario & Luigi!
+                </p>
+                <button id="btn-contact">Entre em Contato</button>
+
+                <form id="form" action="https://formcarry.com/s/NlhyilOXDPf" method="POST"
+                    enctype="multipart/form-data">
+                    <label for="name">Nome:</label>
+                    <input id="name" name="name" type="text" placeholder="Nome">
+                    <label for="email">E-mail:</label>
+                    <input id="email" name="email" type="email" placeholder="Email">
+                    <label for="message">Assunto:</label>
+                    <textarea id="message" name="message" placeholder="Digite aqui..."></textarea>
+                    <button id="btn-form" type="submit">Enviar</button>
+                </form>
+            </section>
+
+            <section class="content-section-right">
+                <img class="img-brothers" src="./assets/img/mario.png" alt="image mario brothers">
+            </section>
+        </article>
+
+        <a href="https://wa.me/5548996832721?text=Ol%C3%A1%2C+preciso+da+ajuda+dos+Irm%C3%A3os+Mario">
+            <img class="whatsapp" src="./assets/img/whatsapp.png" alt="whatsapp">
+        </a>
+    </main>
+    <footer>
+        <p>
+            © 2024 Projeto Mario Bros - Todos os direitos reservados.
+        </p>
+        <p>
+            Desenvolvido por
+            <a href="https://github.com/jacsonpedrotti">Jacson Pedrotti</a>
+        </p>
+    </footer>
+</body>
+
+</html>
